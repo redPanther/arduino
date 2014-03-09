@@ -1,0 +1,21 @@
+
+##############################################################
+
+seeedmega2560.name=Seeeduino Mega 2560
+
+seeedmega2560.upload.protocol=wiring
+seeedmega2560.upload.maximum_size=258048
+seeedmega2560.upload.speed=115200
+
+seeedmega2560.bootloader.low_fuses=0xFF
+seeedmega2560.bootloader.high_fuses=0xD8
+seeedmega2560.bootloader.extended_fuses=0xFD
+seeedmega2560.bootloader.path=stk500v2
+seeedmega2560.bootloader.file=stk500boot_v2_mega2560.hex
+seeedmega2560.bootloader.unlock_bits=0x3F
+seeedmega2560.bootloader.lock_bits=0x0F
+
+seeedmega2560.build.mcu=atmega2560
+seeedmega2560.build.f_cpu=16000000L
+seeedmega2560.build.core=arduino
+seeedmega2560.build.variant=seeedmega
